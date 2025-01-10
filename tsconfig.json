@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "types": ["@types/react"],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "esModuleInterop": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/layouts/page.jsx"],
+  "exclude": ["node_modules"]
+}
